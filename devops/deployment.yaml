@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: auth-ms
-          image: lordbyron.azurecr.io/users-ms:v1
+          image: lordbyron.azurecr.io/auth-ms:v1
           resources:
             requests:
               memory: "128Mi"
