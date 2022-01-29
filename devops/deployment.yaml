@@ -43,6 +43,7 @@ kind: Service
 metadata:
   name: auth-ms-service
 spec:
+  type: LoadBalancer
   selector:
     app: auth-ms
   ports:
