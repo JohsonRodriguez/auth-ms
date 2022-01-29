@@ -6,6 +6,8 @@ metadata:
     app: auth-ms
 spec:
   replicas: 1
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: auth-ms
